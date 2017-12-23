@@ -1,0 +1,13 @@
+rabbit:                       
+  image: "rabbitmq:management"
+  ports:                      
+    - "5672:5672"             
+    - "15672:15672"           
+
+redis:
+  image: "redis:3.0.7"
+  ports: 
+    - "6379:6379"
+
+
+
